@@ -24,7 +24,7 @@ public class Account {
             balance -= amount;
             System.out.println("Withdraw Successful");
         }else  {
-            System.out.println("Not enough money");
+            System.out.println("Not enough Money");
         }
     }
 }
