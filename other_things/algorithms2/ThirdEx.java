@@ -18,6 +18,9 @@ public class ThirdEx {
         for (int i = 0; i < n; i++) {
             sum += massiv[i][i];
         }
+        for (int j = 0; j < n; j++) {
+
+        }
 
         System.out.println("The sum: " + sum);
     }
