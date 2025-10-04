@@ -12,11 +12,13 @@ public class Rectangle extends Shape {
 
     @Override
     public double calculateArea() {
+        System.out.println(width * height);
         return width * height;
 
     }
     @Override
     public double calculatePerimeter() {
+        System.out.println((width + height)*2);
         return (width + height)*2;
     }
 }

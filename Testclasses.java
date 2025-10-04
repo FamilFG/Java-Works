@@ -3,6 +3,7 @@ import classes.Student;
 import other_things.Circle;
 import other_things.Triangle;
 import other_things.Rectangle;
+import other_things.Shape;
 
 public class Testclasses {
     public static void main(String[] args) {
@@ -15,8 +16,7 @@ public class Testclasses {
         Student s = new Student("Famil",18);
         s.display();
 
-        Demo demo = new Demo();
-        Demo.main(args);
+
 
         Book constructor1 = new Book("Journey of guys", "Newson Mathews");
         Book constructor2 = new Book("Journey of girls", "Newson Mathews");
@@ -44,7 +44,11 @@ public class Testclasses {
         rectangle.calculateArea();
         rectangle.calculatePerimeter();
 
-
+        Shape[] figures = {rectangle,circle,triangle};
+        for (Shape figure : figures) {
+            figure.calculateArea();
+            figure.calculatePerimeter();
+        }
 
 
 

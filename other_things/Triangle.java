@@ -11,7 +11,8 @@ public class Triangle extends Shape {
     }
     @Override
     public double calculateArea() {
-        double s = (a + b + c) / 2.0;          // semiperimeter
+        double s = (a + b + c) / 2.0;
+        System.out.println((s * (s - a) * (s - b) * (s - c)));// semiperimeter
         return (s * (s - a) * (s - b) * (s - c));
     }
     @Override

@@ -27,10 +27,6 @@ public class Test_the_classes {
         Animal lion = new  Animal("Lion");
         Animal cat  = new  Animal("Cat");
 
-        Shape kruq = new Shape(3);
-        Shape pramouqolnik = new Shape(4,5);
-
-
 
 
     }
