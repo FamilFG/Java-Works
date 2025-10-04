@@ -1,5 +1,8 @@
 import classes.*;
 import classes.Student;
+import other_things.Circle;
+import other_things.Triangle;
+import other_things.Rectangle;
 
 public class Testclasses {
     public static void main(String[] args) {
@@ -28,5 +31,22 @@ public class Testclasses {
         Person person2 = new Person("Emil", 19);
         person2.display();
         person.display();
+
+        Circle circle = new Circle(3);
+        circle.calculateArea();
+        circle.calculatePerimeter();
+
+        Triangle triangle = new Triangle(3,3,3);
+        triangle.calculateArea();
+        triangle.calculatePerimeter();
+
+        Rectangle rectangle = new Rectangle(3,3);
+        rectangle.calculateArea();
+        rectangle.calculatePerimeter();
+
+
+
+
+
     }
 }
