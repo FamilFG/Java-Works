@@ -1,9 +1,7 @@
+import Interface_abstract.*;
 import classes.*;
 import classes.Student;
 import other_things.Circle;
-import other_things.Triangle;
-import other_things.Rectangle;
-import other_things.Shape;
 
 public class Testclasses {
     public static void main(String[] args) {
@@ -51,6 +49,13 @@ public class Testclasses {
         }
 
 
+        CreditCardPayment ccp = new CreditCardPayment();
+        ccp.pay(20);
 
+        PayPalPayment ppp = new PayPalPayment();
+        ppp.pay(30);
+
+        CashPayment cash = new CashPayment();
+        cash.pay(40);
     }
 }

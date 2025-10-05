@@ -1,4 +1,4 @@
-package other_things;
+package Interface_abstract;
 
 public abstract class Shape {
     public abstract double calculatePerimeter();

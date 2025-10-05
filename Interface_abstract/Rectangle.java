@@ -1,4 +1,4 @@
-package other_things;
+package Interface_abstract;
 
 public class Rectangle extends Shape {
     private final double width;

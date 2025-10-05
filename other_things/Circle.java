@@ -1,5 +1,7 @@
 package other_things;
 
+import Interface_abstract.Shape;
+
 public class Circle extends Shape {
     double r;
 

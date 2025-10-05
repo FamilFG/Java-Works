@@ -1,4 +1,4 @@
-package other_things;
+package Interface_abstract;
 
 public class Triangle extends Shape {
     double a;
