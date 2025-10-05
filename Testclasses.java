@@ -57,5 +57,14 @@ public class Testclasses {
 
         CashPayment cash = new CashPayment();
         cash.pay(40);
+
+        Cat kotik = new Cat();
+        kotik.makeSound();
+
+        Dog dog = new Dog();
+        dog.makeSound();
+
+        Cow  cow = new Cow();
+        cow.makeSound();
     }
 }
