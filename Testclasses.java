@@ -2,9 +2,7 @@ import Interface_abstract.*;
 import Interface_abstract.Car;
 import classes.*;
 import classes.Student;
-import other_things.Circle;
-
-import javax.smartcardio.Card;
+import Interface_abstract.Circle;
 
 public class Testclasses {
     public static void main(String[] args) {

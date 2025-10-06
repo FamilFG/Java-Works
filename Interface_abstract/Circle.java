@@ -1,6 +1,4 @@
-package other_things;
-
-import Interface_abstract.Shape;
+package Interface_abstract;
 
 public class Circle extends Shape {
     double r;
