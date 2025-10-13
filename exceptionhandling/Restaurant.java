@@ -1,4 +1,4 @@
-package ExceptionHandling;
+package exceptionhandling;
 
 public class Restaurant {
     final int totalTables=5;

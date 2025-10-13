@@ -1,4 +1,4 @@
-package ExceptionHandling;
+package exceptionhandling;
 
 public class Student {
     String name;
@@ -8,6 +8,7 @@ public class Student {
         this.name = name;
         this.averageGrade = averageGrade;
     }
+
     public void checkExamResult() throws LowGradeException{
         if (averageGrade<51){
             throw new LowGradeException("Not enough points");

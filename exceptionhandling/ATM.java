@@ -1,5 +1,4 @@
-package ExceptionHandling;
-
+package exceptionhandling;
 import java.util.Scanner;
 
 public class ATM {

@@ -1,4 +1,4 @@
-package ExceptionHandling;
+package exceptionhandling;
 
 public class CarRentalService {
     String[] cars = {"bmw", "mercedes", "chevrolet", "mclaren"};

@@ -1,4 +1,4 @@
-package ExceptionHandling;
+package exceptionhandling;
 
 public class Library {
     String[] listOfBooks = {"Great China", "Last Of Us", "RDR2", "Minecraft"};
