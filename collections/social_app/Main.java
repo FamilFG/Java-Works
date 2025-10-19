@@ -14,7 +14,7 @@ public class Main {
         Post post1 = new Post(101, "First post");
         mainLogic.addPost(famil, post1);
 
-        mainLogic.likePost(famil, post1.getId());
+        mainLogic.likePost(famil, 11);
         mainLogic.likePost(famil, post1.getId());
         mainLogic.likePost(famil, post1.getId());
 
