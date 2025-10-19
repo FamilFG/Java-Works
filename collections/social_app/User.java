@@ -20,6 +20,7 @@ public class User {
                 ", maxPosts=" + maxPosts +
                 '}';
     }
+
     public void setPosts(List<Post> posts) {this.posts = posts;}
     public int getMaxPosts() {return maxPosts;}
     public void setMaxPosts(int maxPosts) {this.maxPosts = maxPosts;}

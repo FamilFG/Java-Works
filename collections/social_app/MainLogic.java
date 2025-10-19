@@ -10,8 +10,6 @@ public class MainLogic {
     private final List<User> users = new ArrayList<>();
     private int userCounter;
 
-
-
     public void addUser(User u){
         if(userCounter<=10){
             users.add(u);
