@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="ojdbc8-12.2.0.1-javadoc">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../mysql-connector-j-9.5.0/mysql-connector-j-9.5.0.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/Downloads/ojdbc8-12.2.0.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>
