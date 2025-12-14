@@ -5,4 +5,4 @@ This repo documents:
 
 
 
-I’ll keep updating this repository with projects, exercises, and experiments as I advance toward mastering Java 🚀
+Done working on SOLID principes, OOP - Basically the Java Core
