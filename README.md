@@ -1,5 +1,10 @@
 # Java Works
 
+<p align="center">
+  <img src="banner-v2.png" alt="Deep Learning Projects Banner" />
+</p>
+
+
 This repository is a collection of Java practice projects, small demos, and coursework-style exercises. It starts with Java core concepts and expands into inheritance, collections, exception handling, networking, JDBC, and algorithm drills.
 
 ## What's inside
